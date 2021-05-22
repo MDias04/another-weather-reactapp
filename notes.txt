@@ -1,0 +1,50 @@
+
+     
+      <div className="degrees">
+        <h1 class="temperature">
+          <img src="" alt="" id="weather-icon" />
+          <span id="current-temperature"></span>˚
+          <span className="metrics">
+            <a href="#" id="celcius" className="celcius-unit active">
+              C
+            </a>
+            <a href="#" id="fahrenheit" className="fahrenheit-unit">
+              F
+            </a>
+          </span>
+        </h1>
+      </div>
+      <div className="weather-conditions" id="weather-description"></div>
+      <div className="container">
+        <div className="row weather-details">
+          <div className="col">
+            <p>
+              Humidity: <span id="humidity"></span>%
+            </p>
+          </div>
+          <div className="col">
+            <p>
+              Wind: <span id="wind"></span> m/h
+            </p>
+          </div>
+
+          <div className="col">
+            <p>
+              High: <span id="high"></span>°
+            </p>
+          </div>
+          <div className="col">
+            <p>
+              Low: <span id="low"></span>°
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="weather-forecast" id="forecast"></div>
+
+
+
+
+
+        
